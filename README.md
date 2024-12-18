@@ -57,8 +57,8 @@ CyberMart là một ứng dụng thương mại điện tử được xây dựn
 <h3>Cách cài đặt</h3>
 
 1. Clone dự án từ GitHub:
-
-- git clone https://github.com/chaolaolo/CyberMart.git
+   ```bash
+   git clone https://github.com/chaolaolo/CyberMart.git
 
 2. Mở dự án trong Android Studio.
 
@@ -95,21 +95,23 @@ CyberMart là một ứng dụng thương mại điện tử được xây dựn
 - Admin có thể thêm, sửa hoặc xoá sản phẩm từ danh sách sản phẩm.
 
 <h2>Cấu trúc dự án</h2>
+<pre>
 CyberMart/  
-├── app/<br>
-│   ├── src/<br>
-│   │   ├── main/<br>
-│   │   │   ├── java/com/cybermart/<br>
-│   │   │   │   ├── adapters/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Adapter cho RecyclerView<br>
-│   │   │   │   ├── models/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Các model dữ liệu<br>
-│   │   │   │   ├── ui/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Các activity và fragment<br>
-│   │   │   │   ├── utils/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Các tiện ích<br>
-│   │   │   ├── res/<br>
-│   │   │   │   ├── layout/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Layout XML<br>
-│   │   │   │   ├── drawable/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Tài nguyên đồ hoạ<br>
-│   │   │   │   ├── values/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Tài nguyên giá trị (strings, styles,...)<br>
-│   ├── build.gradle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Cấu hình Gradle<br>
-├── google-services.json&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Cấu hình Firebase (thêm vào thủ công)<br>
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/cybermart/
+│   │   │   │   ├── adapters/          # Adapter cho RecyclerView
+│   │   │   │   ├── models/            # Các model dữ liệu
+│   │   │   │   ├── ui/                # Các activity và fragment
+│   │   │   │   ├── utils/             # Các tiện ích
+│   │   │   ├── res/
+│   │   │   │   ├── layout/            # Layout XML
+│   │   │   │   ├── drawable/          # Tài nguyên đồ hoạ
+│   │   │   │   ├── values/            # Tài nguyên giá trị (strings, styles,...)
+│   ├── build.gradle# Cấu hình Gradle
+├── google-services.json# Cấu hình Firebase (thêm vào thủ công)
+</pre>
 <h2>Liên hệ</h2>
 
 **Tác giả:** Chảo Láo Lở - Trần Đình Vũ - Đặng Văn Sĩ - Lâm Tùng Dương
