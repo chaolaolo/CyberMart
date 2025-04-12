@@ -2,6 +2,86 @@
 
 CyberMart là một ứng dụng thương mại điện tử được xây dựng trên nền tảng Android, với phần backend sử dụng Firebase. Ứng dụng cung cấp tính năng quản lý sản phẩm, giỏ hàng, và xử lý người dùng.
 
+
+## Ảnh chụp giao diện ứng dụng
+<table>
+  <tr>
+    <td>Trang chủ</td>
+    <td>Danh sách sản phẩm</td>
+    <td>Tìm kiếm sản phẩm</td>
+    <td>Chi tiết sản phẩm</td>
+  </tr>
+  <tr>
+    <td><img src="ScreenShots/Screenshot_1744443842.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744443866.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744443886.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744443910.png" width="190"></td>
+  </tr>
+  <tr>
+    <td colspan="4"></td>
+  </tr>
+  <tr>
+    <td>Thêm yêu thích/giỏ hàng thành công</td>
+    <td>Giỏ hàng</td>
+    <td>Mã giảm giá</td>
+    <td>Áp mã giảm giá thành công</td>
+  </tr>
+  <tr>
+    <td><img src="ScreenShots/Screenshot_1744443926.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744443955.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744443975.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744443991.png" width="190"></td>
+  </tr>
+  <tr>
+    <td colspan="4"></td>
+  </tr>
+  <tr>
+    <td>Thanh toán</td>
+    <td>Thanh toán thành công</td>
+    <td>Đơn hàng</td>
+    <td>Chi tiết đơn hàng</td>
+  </tr>
+  <tr>
+    <td><img src="ScreenShots/Screenshot_1744443997.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444041.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444056.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444058.png" width="190"></td>
+  </tr>
+  <tr>
+    <td colspan="4"></td>
+  </tr>
+  <tr>
+    <td>Danh sách yêu thích</td>
+    <td>Nhắn tin</td>
+    <td>Nhắn tin</td>
+    <td>Lịch sử tin nhắn</td>
+  </tr>
+  <tr>
+    <td><img src="ScreenShots/Screenshot_1744444095.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444138.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444143.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444154.png" width="190"></td>
+  </tr>
+  <tr>
+    <td colspan="4"></td>
+  </tr>
+  <tr>
+    <td>Trang cá nhân</td>
+    <td>Chỉnh sửa thông tin cá nhân</td>
+    <td>Đăng ký</td>
+    <td>Đăng nhập</td>
+  </tr>
+  <tr>
+    <td><img src="ScreenShots/Screenshot_1744444159.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444168.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444276.png" width="190"></td>
+    <td><img src="ScreenShots/Screenshot_1744444280.png" width="190"></td>
+  </tr>
+  <tr>
+    <td colspan="4"></td>
+  </tr>
+</table>
+
 <h3>Tính năng chính</h3>
 
 - **Đăng ký/Đăng nhập:** Sử dụng Firebase Authentication để quản lý tài khoản người dùng.
